@@ -29,9 +29,64 @@
 		D935FC2A2D05B20A0062F94C /* po.aiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = po.aiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D935FCAA2D05BFF50062F94C /* Exceptions for "po.ai" folder in "po.aiTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Plus_Jakarta_Sans/OFL.txt,
+				"Plus_Jakarta_Sans/PlusJakartaSans-Italic-VariableFont_wght.ttf",
+				"Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf",
+				Plus_Jakarta_Sans/README.txt,
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-Bold.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-BoldItalic.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraBold.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraBoldItalic.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraLight.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraLightItalic.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-Italic.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-Light.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-LightItalic.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-Medium.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-MediumItalic.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-Regular.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-SemiBold.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-SemiBoldItalic.ttf",
+			);
+			target = D935FC1F2D05B20A0062F94C /* po.aiTests */;
+		};
+		D935FCAB2D05BFF50062F94C /* Exceptions for "po.ai" folder in "po.aiUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Plus_Jakarta_Sans/OFL.txt,
+				"Plus_Jakarta_Sans/PlusJakartaSans-Italic-VariableFont_wght.ttf",
+				"Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf",
+				Plus_Jakarta_Sans/README.txt,
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-Bold.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-BoldItalic.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraBold.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraBoldItalic.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraLight.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraLightItalic.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-Italic.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-Light.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-LightItalic.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-Medium.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-MediumItalic.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-Regular.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-SemiBold.ttf",
+				"Plus_Jakarta_Sans/static/PlusJakartaSans-SemiBoldItalic.ttf",
+			);
+			target = D935FC292D05B20A0062F94C /* po.aiUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D935FC122D05B2090062F94C /* po.ai */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D935FCAA2D05BFF50062F94C /* Exceptions for "po.ai" folder in "po.aiTests" target */,
+				D935FCAB2D05BFF50062F94C /* Exceptions for "po.ai" folder in "po.aiUITests" target */,
+			);
 			path = po.ai;
 			sourceTree = "<group>";
 		};
@@ -399,6 +454,9 @@
 				DEVELOPMENT_TEAM = 8KQDNNV2H5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "po-ai-Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need microphone access to listen to your input.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need speech recognition to process your voice input.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +486,9 @@
 				DEVELOPMENT_TEAM = 8KQDNNV2H5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "po-ai-Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need microphone access to listen to your input.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need speech recognition to process your voice input.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

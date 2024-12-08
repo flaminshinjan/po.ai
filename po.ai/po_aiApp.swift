@@ -11,7 +11,11 @@ import SwiftUI
 struct po_aiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
+}
+
+#Preview {
+    SplashScreenView()
 }
